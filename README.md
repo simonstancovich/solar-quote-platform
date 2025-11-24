@@ -56,8 +56,9 @@ npm run dev
 Runs at:
 ➡ http://localhost:5173
 
-Make sure your frontend has:
-
+Create `.env` in `/frontend`:
+```bash
 VITE_API_URL=http://localhost:3000
+```
 
 

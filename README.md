@@ -29,30 +29,31 @@ The application consists of two clear sections:
 
 ---
 
-Setup & Running
-Prerequisites
+## 🚀 Setup & Running Locally
 
-Node.js (LTS)
+### **Backend**
 
-npm or yarn
-
-Backend
 cd backend
 npm install
 npm run start:dev
 
+Runs at:
+➡ http://localhost:3000
 
-Runs at http://localhost:3000.
-Swagger UI available at http://localhost:3000/api/docs.
+Swagger docs:
+➡ http://localhost:3000/api/docs
 
-Frontend
-
-In a separate terminal:
-
+### **Frontend**
 cd frontend
 npm install
 npm run dev
 
 
-Runs at http://localhost:5173 (default Vite).
-Front-end expects API at http://localhost:3000.
+Runs at:
+➡ http://localhost:5173
+
+Make sure your frontend has:
+
+VITE_API_URL=http://localhost:3000
+
+

@@ -1,0 +1,9 @@
+# Environment
+.env
+**/.env
+*.env
+
+# Node
+node_modules/
+dist/
+.DS_Store

@@ -60,5 +60,16 @@ Create `.env` in `/frontend`:
 ```bash
 VITE_API_URL=http://localhost:3000
 ```
+## Implementation Decisions
 
+### **Why NestJS**
+Nest Offers a clear, production-ready structure with modules, ontrollers, services, dependency injections, DTO validation. For a Solar quote playform I thought it was best to make it as scalable and maintanable as possible.
 
+### **Why a dedicated validation helper?**
+To keep UI logic clean and centralize rules.
+
+### **Why a custom hook (useQuoteForm)**
+To encapsulate form state, vaidation, messaging, submission and API interation and let UI stay readable and declarative.
+
+### **Why in memory store?**
+To keep this projet easy given the assesment, persistence wasn't a requirement. The service layer is already strutured to be swapped for a database eg. PostgreSQL + Prisma

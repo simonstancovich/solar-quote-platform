@@ -33,9 +33,11 @@ The application consists of two clear sections:
 
 ### **Backend**
 
+```bash
 cd backend
 npm install
 npm run start:dev
+```
 
 Runs at:
 ➡ http://localhost:3000
@@ -44,10 +46,12 @@ Swagger docs:
 ➡ http://localhost:3000/api/docs
 
 ### **Frontend**
+
+```bash
 cd frontend
 npm install
 npm run dev
-
+```
 
 Runs at:
 ➡ http://localhost:5173
